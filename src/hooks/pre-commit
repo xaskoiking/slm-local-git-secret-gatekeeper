@@ -1,0 +1,5 @@
+#!/bin/bash
+# Gatekeeper Pre-commit Hook
+# This is the entry point for the security scanner.
+
+python3 src/hooks/main.py

@@ -1,0 +1,30 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Local configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data and Models (excluded to prevent accidental secret commits)
+data/
+src/models/weights/
+quantized_models/
+
+# Git hooks
+/hooks/
+
+# Research / Paper
+docs/
