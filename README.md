@@ -2,9 +2,9 @@
 
 A **Hybrid Multi-Stage Gatekeeper** designed to prevent sensitive credentials (e.g., AWS keys, OpenAI tokens, Stripe keys) from being accidentally committed to your Git repositories. 
 
-Traditional regex-based secret scanners (like Gitleaks or Trufflehog) are fast but suffer from incredibly high false-positive rates, flagging test data, mock variables, and random strings. This leads to overwhelming "scanner fatigue," causing developers to constantly ignore or bypass security warnings. 
+Industry-standard secret scanners (like Gitleaks and Trufflehog) do an outstanding job establishing foundational security perimeters with their incredible speed and robust regex rules. However, because regex relies on strict pattern matching, it can sometimes flag benign test data or encounter limitations with context-dependent, non-standard credentials. 
 
-This tool solves that problem entirely by combining the speed of regex with the raw contextual reasoning of a **locally running Small Language Model (SLM)**. 
+This project is an experimental exploration of a complementary approach: combining the phenomenal speed of traditional regex with the raw contextual reasoning of a **locally running Small Language Model (SLM)**. 
 
 ---
 
@@ -129,6 +129,6 @@ Ensure you used **absolute paths** in your `.git/hooks/pre-commit` file and that
 
 ---
 
-## 🔬 Research & Attribution
+## 📋 Research Attribution
 
-This project is independent personal research by Raaghavan Krishnamurthy. AI coding assistance tools were used during development. All research design, experimental methodology, system architecture decisions, and intellectual contributions are the original work of the author. No proprietary, organizational, or third-party code or credentials were involved. All testing datasets are entirely synthetic.
+This project is independent personal research by Raaghavan Krishnamurthy. AI coding and writing assistance tools were used during development and documentation. All research design, experimental methodology, system architecture decisions, and intellectual contributions are the original work of the author. All experiments were conducted on a personally owned development environment using entirely synthetic data. No proprietary, organizational, or third-party code or credentials were involved.
