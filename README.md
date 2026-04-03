@@ -129,6 +129,6 @@ Ensure you used **absolute paths** in your `.git/hooks/pre-commit` file and that
 
 ---
 
-## 🤖 100% AI-Built Codebase
+## 🔬 Research & Attribution
 
-**This entire project was conceptualized and written entirely by AI.** It explores how localized SLMs can solve deep developer-experience problems like secret scanning fatigue.
+This project is independent personal research by Raaghavan Krishnamurthy. AI coding assistance tools were used during development. All research design, experimental methodology, system architecture decisions, and intellectual contributions are the original work of the author. No proprietary, organizational, or third-party code or credentials were involved. All testing datasets are entirely synthetic.
